@@ -1,0 +1,88 @@
+.user-dropdown {
+  height: 45px;
+  outline: none;
+  min-height: 45px;
+  margin: 0.45rem 0;
+  border: 1px solid transparent;
+  position: relative;
+
+  &:focus-visible {
+    border-color: white;
+  }
+}
+
+.user-main {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+
+  .user-cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background: #ffffff22;
+  }
+
+  .mojang-icon {
+    image-rendering: initial;
+    max-width: 24px;
+    margin-left: 1rem;
+  }
+
+  span {
+    font-family: 'Noto Sans';
+    color: white;
+    font-size: 0.85rem;
+  }
+
+  i {
+    font-family: 'Noto Sans';
+    color: #aaa;
+    font-style: normal;
+    font-size: 0.71rem;
+  }
+}
+
+.user-dropdown-cont {
+  display: none;
+  position: relative;
+  z-index: 100;
+  background: hsl(0, 0%, 5%);
+  border-radius: 4px;
+  width: 160px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 0.5rem 0;
+  top: 4px;
+
+  &.open {
+    display: block;
+  }
+}
+
+hr {
+  border-color: #323232;
+}
+
+.user-dropdown-item {
+  display: block;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  font-family: 'Noto Sans';
+  font-size: 14px;
+  outline: none;
+  color: white;
+
+  &:focus,
+  &:hover {
+    background: hsl(147, 89%, 27%);
+  }
+}

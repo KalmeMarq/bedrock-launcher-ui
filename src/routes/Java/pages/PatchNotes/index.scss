@@ -1,0 +1,47 @@
+.patches-page {
+  .container {
+    position: relative;
+    width: 760px;
+    margin: auto;
+  }
+
+  .top-nav {
+    padding: 1rem 0 0.5rem;
+
+    .hyperlink {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+
+    form {
+      h3 {
+        font-family: 'Noto Sans Bold';
+        font-size: 11px;
+        color: white;
+        text-transform: uppercase;
+      }
+
+      .wrapper {
+        display: flex;
+        flex-direction: row;
+        padding: 0.3rem 0 0;
+        gap: 0 10px;
+      }
+    }
+  }
+
+  .patches {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    padding: 1.4rem 0;
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 240px);
+      justify-content: space-between;
+      gap: 1rem 0;
+    }
+  }
+}

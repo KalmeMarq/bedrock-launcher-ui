@@ -1,0 +1,54 @@
+.play-btn-text {
+  cursor: pointer;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translate(-50%);
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  width: calc(60px * 4.4);
+  height: 57px;
+  outline: none;
+  border: none;
+  background: url(../../assets/others/MainPagePlayButton.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: 'MinecraftTen';
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-shadow: 0 2px 0 #00000088;
+
+  display: flex;
+  place-content: center;
+  place-items: center;
+
+  &:focus {
+    background: url(../../assets/others/MainPagePlayButtonFocusOver.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &:hover {
+    background: url(../../assets/others/MainPagePlayButtonOver.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    span {
+      transform: scale(1.035) translate(0, -0.5px);
+    }
+  }
+
+  &:active {
+    background: url(../../assets/others/MainPagePlayButtonPressed.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+  }
+
+  filter: drop-shadow(0 3px #00000044);
+}

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./assets/fonts/Minecraft.ttf');
+}
+
+@font-face {
+  font-family: 'MinecraftTen';
+  src: url('./assets/fonts/MinecraftTen.eot'); 
+  src: url('./assets/fonts/MinecraftTen.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/MinecraftTen.woff') format('woff'), 
+       url('./assets/fonts/MinecraftTen.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./assets/fonts/NotoSans-Regular.eot');
+  src:
+    local("Noto Sans"),
+    local("NotoSans"),
+    url('./assets/fonts/NotoSans-Regular.eot?#iefix') format("embedded-opentype"),
+    url('./assets/fonts/NotoSans-Regular.woff2') format("woff2"),
+    url('./assets/fonts/NotoSans-Regular.woff') format("woff"),
+    url('./assets/fonts/NotoSans-Regular.ttf') format("truetype"),
+    url('./assets/fonts/NotoSans-Regular.svg#NotoSans-Regular') format("svg");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+  
+@font-face {
+  font-family:'Noto Sans Bold';
+  src: url('./assets/fonts/NotoSans-Bold.eot');
+  src:
+    local("Noto Sans Bold"),
+    local("NotoSans-Bold"),
+    url('./assets/fonts/NotoSans-Bold.eot?#iefix') format("embedded-opentype"),
+    url('./assets/fonts/NotoSans-Bold.woff2') format("woff2"),
+    url('./assets/fonts/NotoSans-Bold.woff') format("woff"),
+    url('./assets/fonts/NotoSans-Bold.ttf') format("truetype"),
+    url('./assets/fonts/NotoSans-Bold.svg#NotoSans-Bold') format("svg");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family:'Noto Sans Italic';
+  src: url('./assets/fonts/NotoSans-Italic.eot');
+  src: 
+    local("Noto Sans Italic"),
+    local("NotoSans-Italic"),
+    url('./assets/fonts/NotoSans-Italic.eot?#iefix') format("embedded-opentype"),
+    url('./assets/fonts/NotoSans-Italic.woff2') format("woff2"),
+    url('./assets/fonts/NotoSans-Italic.woff') format("woff"),
+    url('./assets/fonts/NotoSans-Italic.ttf') format("truetype"),
+    url('./assets/fonts/NotoSans-Italic.svg#NotoSans-Italic') format("svg");
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family:'Noto Sans Bold Italic';
+  src: url('./assets/fonts/NotoSans-BoldItalic.eot');
+  src: 
+    local("Noto Sans Bold Italic"),
+    local("NotoSans-BoldItalic"),
+    url('./assets/fonts/NotoSans-BoldItalic.eot?#iefix') format("embedded-opentype"),
+    url('./assets/fonts/NotoSans-BoldItalic.woff2') format("woff2"),
+    url('./assets/fonts/NotoSans-BoldItalic.woff') format("woff"),
+    url('./assets/fonts/NotoSans-BoldItalic.ttf') format("truetype"),
+    url('./assets/fonts/NotoSans-BoldItalic.svg#NotoSans-BoldItalic') format("svg");
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,95 @@
+.faq-page {
+  .faq-context {
+    p {
+      padding-bottom: 1rem;
+    }
+  
+    padding-bottom: 2.5rem;
+  }
+  
+  main {
+    width: 770px;
+    margin: auto;
+  
+    h2 {
+      text-align: center;
+      width: 100%;
+      font-family: 'Noto Sans Bold';
+      color: white;
+      font-size: 1.8rem;
+      padding: 1.6rem 0;
+    }
+    
+    .faq-qa-question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      
+      b {
+        position: relative;
+        top: -4px;
+        font-size: 1.3rem;
+        padding: 0 1rem;
+      }
+  
+      div {
+        color: white;
+        font-size: 0.9rem;
+        font-family: 'Noto Sans Bold';
+      }
+    }
+  
+    .faq-qa-answer {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      
+      b {
+        font-size: 1.3rem;
+        padding: 0 1rem;
+      }
+  
+      div {
+        color: white;
+        font-size: 0.9rem;
+        font-family: 'Noto Sans Bold';
+      }
+  
+      padding-bottom: 40px;
+    }
+  
+    p {
+      color: white;
+      font-family: 'Noto Sans';
+      font-size: 0.9rem;
+    }
+  
+    b {
+      color: white;
+      font-family: 'Noto Sans Bold';
+    }
+  
+    a {
+      color: white;
+      position: relative;
+      padding: 0px 26px 2px 4px;
+      border-radius: 3px;
+      font-family: 'Noto Sans Bold';
+  
+      &:hover {
+        background: #ffffff44;
+      }
+    }
+  
+    a::after {
+      position: absolute;
+      content: '';
+      display: block;
+      background: url(../../../../assets/icons/hyperlink.png) no-repeat;
+      width: calc(14px);
+      height: calc(14px);
+      top: 3px;
+      right: 6px;    
+    }
+  }
+}

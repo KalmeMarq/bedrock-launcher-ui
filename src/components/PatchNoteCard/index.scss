@@ -1,0 +1,52 @@
+.patch-item {
+  width: 240px;
+  background: none;
+  transition: opacity 300ms;
+  animation: animOpac 300ms;
+  box-sizing: content-box;
+  border: 1px solid transparent;
+  outline: none;
+  text-align: left;
+
+  .patch-item-inside {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 4px 0 #00000044;
+  }
+
+  img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .patch-cont {
+    background: hsl(0, 0%, 7%);
+    height: 80px;
+    color: white;
+    padding: 0.6rem 0.9rem;
+
+    p {
+      font-family: 'Noto Sans Bold';
+      font-size: 1rem;
+    }
+  }
+
+  cursor: pointer;
+
+  &:hover .patch-cont {
+    background: hsl(0, 0%, 15%);
+  }
+
+  &:focus-visible {
+    border-color: white;
+  }
+}
+
+@keyframes animOpac {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
