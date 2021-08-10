@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/bedrock-launcher-ui/static/css/main.d8ae75b3.chunk.css",
-    "main.js": "/bedrock-launcher-ui/static/js/main.cdf66029.chunk.js",
-    "main.js.map": "/bedrock-launcher-ui/static/js/main.cdf66029.chunk.js.map",
+    "main.css": "/bedrock-launcher-ui/static/css/main.8c4dc3bc.chunk.css",
+    "main.js": "/bedrock-launcher-ui/static/js/main.c9beb4e0.chunk.js",
+    "main.js.map": "/bedrock-launcher-ui/static/js/main.c9beb4e0.chunk.js.map",
     "runtime-main.js": "/bedrock-launcher-ui/static/js/runtime-main.3c015848.js",
     "runtime-main.js.map": "/bedrock-launcher-ui/static/js/runtime-main.3c015848.js.map",
-    "static/js/2.b4e42eef.chunk.js": "/bedrock-launcher-ui/static/js/2.b4e42eef.chunk.js",
-    "static/js/2.b4e42eef.chunk.js.map": "/bedrock-launcher-ui/static/js/2.b4e42eef.chunk.js.map",
+    "static/js/2.3dca8a84.chunk.js": "/bedrock-launcher-ui/static/js/2.3dca8a84.chunk.js",
+    "static/js/2.3dca8a84.chunk.js.map": "/bedrock-launcher-ui/static/js/2.3dca8a84.chunk.js.map",
     "index.html": "/bedrock-launcher-ui/index.html",
-    "static/css/main.d8ae75b3.chunk.css.map": "/bedrock-launcher-ui/static/css/main.d8ae75b3.chunk.css.map",
-    "static/js/2.b4e42eef.chunk.js.LICENSE.txt": "/bedrock-launcher-ui/static/js/2.b4e42eef.chunk.js.LICENSE.txt",
+    "static/css/main.8c4dc3bc.chunk.css.map": "/bedrock-launcher-ui/static/css/main.8c4dc3bc.chunk.css.map",
+    "static/js/2.3dca8a84.chunk.js.LICENSE.txt": "/bedrock-launcher-ui/static/js/2.3dca8a84.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/bedrock-launcher-ui/static/media/link.f1c9b2c7.svg",
     "static/media/fonts.css": "/bedrock-launcher-ui/static/media/NotoSans-Regular.bd1bddc3.eot",
+    "static/media/MinecraftBugrockEdition.6f864ce0.png": "/bedrock-launcher-ui/static/media/MinecraftBugrockEdition.6f864ce0.png",
+    "static/media/Minecraft_Java_Edition.5c02e67e.png": "/bedrock-launcher-ui/static/media/Minecraft_Java_Edition.5c02e67e.png",
     "static/media/cancel.5b7ce760.svg": "/bedrock-launcher-ui/static/media/cancel.5b7ce760.svg",
-    "static/media/info.41dea492.svg": "/bedrock-launcher-ui/static/media/info.41dea492.svg",
-    "static/media/logo.697d6613.png": "/bedrock-launcher-ui/static/media/logo.697d6613.png"
+    "static/media/info.4a4e0c9d.png": "/bedrock-launcher-ui/static/media/info.4a4e0c9d.png",
+    "static/media/logo.697d6613.png": "/bedrock-launcher-ui/static/media/logo.697d6613.png",
+    "static/media/mojang-icon.a76e3336.png": "/bedrock-launcher-ui/static/media/mojang-icon.a76e3336.png",
+    "static/media/search.637db432.svg": "/bedrock-launcher-ui/static/media/search.637db432.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3c015848.js",
-    "static/js/2.b4e42eef.chunk.js",
-    "static/css/main.d8ae75b3.chunk.css",
-    "static/js/main.cdf66029.chunk.js"
+    "static/js/2.3dca8a84.chunk.js",
+    "static/css/main.8c4dc3bc.chunk.css",
+    "static/js/main.c9beb4e0.chunk.js"
   ]
 }
